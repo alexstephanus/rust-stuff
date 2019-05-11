@@ -4,7 +4,7 @@ use std::collections::BTreeSet;
 use std::fs;
 
 pub fn day_1() -> () {
-    let input = fs::read_to_string("src/inputs/1.txt")
+    let input = fs::read_to_string("lib/inputs/1.txt")
         .expect("Not a file");
     let res = add_freqs(&input);
     println!("{}", res);
